@@ -1,0 +1,193 @@
+.navigation {
+    display: flex;
+    height: 100vh;
+    flex: 0.15;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    padding: 2rem 0;
+    background: rgb(252, 252, 252);
+
+}
+
+.navMobile {
+    display: flex;
+    height: 100vh;
+    flex: 0.15;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    padding: 2rem 0;
+    background: rgb(252, 252, 252);
+
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo img {
+    max-height: 5rem;
+    object-fit: contain;
+    margin-bottom: 2rem;
+}
+
+.logo h1 {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.links {
+    display: flex;
+    padding: 2rem 0;
+
+}
+
+.links ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 100%;
+    flex-direction: column;
+}
+
+.links ul li {
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    height: 3rem;
+    cursor: pointer;
+    padding-left: 1rem;
+}
+
+.links ul li a {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
+}
+
+.links ul li span {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.links ul li a svg {
+    margin-right: .5rem;
+    margin-top: .1rem;
+}
+
+.links ul li span svg {
+    margin-right: .5rem;
+    margin-top: .1rem;
+}
+
+.show {
+    display: flex;
+    background: white;
+    color: rgba(255, 196, 35, 1);
+    padding: .5rem 0;
+}
+
+.show ul li a {
+    font-size: 13px;
+}
+
+
+.hide {
+    display: none;
+}
+
+.open {
+    background: white;
+}
+
+.close {
+    background: white;
+}
+
+
+.bar {
+    display: none;
+    padding: 1rem;
+    background: white;
+    font-size: 2rem;
+    position: relative;
+}
+
+
+@media screen and (max-width: 1300px) {
+    .navigation {
+        flex: 0.2;
+    }
+
+    .bar {
+        display: none;
+    }
+
+    .navMobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .navigation {
+        flex: 0.3;
+    }
+
+    .navMobile {
+        display: none;
+    }
+
+    .bar {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .navigation {
+        display: none;
+    }
+
+    .navMobile {
+        display: flex;
+    }
+
+    .bar {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .navigation {
+        display: none;
+    }
+
+    .navMobile {
+        display: flex;
+    }
+
+    .bar {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .navigation {
+        display: none;
+    }
+
+    .navMobile {
+        display: flex;
+    }
+
+    .bar {
+        display: flex;
+    }
+
+}

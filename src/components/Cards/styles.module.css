@@ -1,0 +1,108 @@
+.cards {
+    display: flex;
+    justify-content: space-around;
+    background: white;
+    box-shadow: 0px 1px 2px -1px rgba(0, 0, 0, 0.02);
+    border-radius: 10px;
+    padding: 2rem 1.5rem;
+    margin-bottom: 1rem;
+    /* border: 1px solid gainsboro; */
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.url {
+    flex-basis: 23%;
+    text-decoration: none;
+}
+
+.icons {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    flex: 0.1;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    align-items: center;
+}
+
+
+.icons svg {
+    font-size: 1.5rem;
+    margin: 0 auto;
+}
+
+.text {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    flex: 0.8;
+}
+
+.yellow {
+    background: rgba(255, 196, 35, 1);
+    color: black;
+}
+
+/* colors */
+.red {
+    background: linear-gradient(0deg, rgba(254, 101, 61, 1), rgba(244, 69, 92, 1));
+    color: white;
+}
+
+.blue {
+    background: linear-gradient(0deg, rgba(24, 181, 243, 1), rgba(24, 126, 243, 1));
+    color: white;
+}
+
+.green {
+    background: linear-gradient(0deg, rgba(28, 238, 122, 1), rgba(66, 193, 101, 1));
+    color: white;
+}
+
+.purple {
+    background: linear-gradient(0deg, rgba(196, 94, 213, 1), rgba(150, 96, 242, 1));
+    color: white;
+}
+
+.dpurple {
+    background: #F2EBFB;
+    color: #713BDB;
+}
+
+.cyan {
+    background: #EEF9FF;
+    color: #49B8FF;
+}
+
+.gold {
+    background: #FEF3EF;
+    color: #FE8A57;
+}
+
+.crimson {
+    background: #FFEFF2;
+    color: #FD5181;
+}
+
+
+
+@media screen and (max-width: 1050px) {
+    .url {
+        flex-basis: 23%;
+        text-decoration: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .url {
+        flex-basis: 31%;
+        text-decoration: none;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .url {
+        flex-basis: 98%;
+        text-decoration: none;
+    }
+}

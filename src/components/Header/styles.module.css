@@ -1,0 +1,167 @@
+.topNavigation {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: .5rem;
+    margin-bottom: 1rem;
+}
+
+.topNavigation h5 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: rgba(25, 25, 25);
+}
+
+.flexBox {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 50px;
+}
+
+.search {
+    display: flex;
+    flex: 0.2;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: whitesmoke;
+    border-radius: 50px;
+    padding: .5rem 1rem;
+}
+
+.search input {
+    width: 100%;
+    flex: 0.9;
+    height: 2.5rem;
+    outline: none;
+    border: none;
+    padding: .5rem 1rem;
+    background: none;
+}
+
+.search svg {
+    font-size: 1.3rem;
+}
+
+.profile {
+    flex: 0.8;
+    align-items: center;
+}
+
+.dp {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: right;
+}
+
+.dp img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: fill;
+}
+
+
+
+
+
+/* phone-only */
+@media (max-width: 599px) {
+
+    .search {
+        flex: 0.5;
+    }
+
+    .profile {
+        flex: 0.5;
+    }
+
+}
+
+/* .tablet-portrait-up  */
+@media (min-width: 600px) {
+    .search {
+        flex: 0.5;
+    }
+
+    .profile {
+        flex: 0.5;
+    }
+}
+
+/* tablet-portait-only */
+@media (min-width: 600px) and (max-width: 899px) {
+    .search {
+        flex: 0.5;
+    }
+
+    .profile {
+        flex: 0.5;
+    }
+}
+
+/* tablet-landscape-up */
+@media (min-width: 900px) {
+    .search {
+        flex: 0.5;
+    }
+
+    .profile {
+        flex: 0.5;
+    }
+}
+
+/* tablet-landscape-only */
+@media (min-width: 900px) and (max-width: 1199px) {
+    .search {
+        flex: 0.5;
+    }
+
+    .profile {
+        flex: 0.5;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .search {
+        flex: 0.4;
+    }
+
+    .profile {
+        flex: 0.6;
+    }
+}
+
+/* .desktop-up */
+@media (min-width: 1300px) {
+    .search {
+        flex: 0.3;
+    }
+
+    .profile {
+        flex: 0.7;
+    }
+}
+
+/* desktop-only */
+@media (min-width: 1300px) and (max-width: 1799px) {
+    .search {
+        flex: 0.2;
+    }
+
+    .profile {
+        flex: 0.8;
+    }
+}
+
+/* big-desktop-up */
+@media (min-width: 1800px) {
+    .search {
+        flex: 0.2;
+    }
+
+    .profile {
+        flex: 0.8;
+    }
+}

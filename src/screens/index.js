@@ -1,0 +1,11 @@
+export { default as Login } from "./Auth/Login";
+export { default as ForgotPassword } from "./Auth/ForgotPassword";
+export { default as ResetPassword } from "./Auth/ResetPassword";
+export { default as Dashboard } from "./Dashboard";
+export { default as Product } from "./Product";
+export { default as Category } from "./Category";
+export { default as Customer } from "./Customer";
+export { default as Admin } from "./Admin";
+export { default as Orders } from "./Orders";
+export { default as Delivery } from "./Delivery";
+export { default as Testimony } from "./Testimony";
